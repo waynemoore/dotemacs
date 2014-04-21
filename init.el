@@ -86,3 +86,7 @@
   ;; https://github.com/lewang/flx
   (require 'flx-ido)
   (flx-ido-mode 1)
+
+  ;; magit
+  ;; https://github.com/magit/magit
+  (require 'magit)

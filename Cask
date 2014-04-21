@@ -4,6 +4,7 @@
 (depends-on "auto-complete")
 (depends-on "exec-path-from-shell")
 (depends-on "flx-ido")
+(depends-on "magit")
 (depends-on "pallet")
 (depends-on "powerline")
 (depends-on "project-explorer")
