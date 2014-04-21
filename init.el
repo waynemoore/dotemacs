@@ -25,6 +25,9 @@
   ;; Enable copy and pasting from clipboard
   (setq x-select-enable-clipboard t)
 
+  ;; remove trailing whitespace on save
+  (add-to-list 'write-file-functions 'delete-trailing-whitespace)
+
   ;; Disable backups
   (setq backup-inhibited t)
 
