@@ -14,6 +14,10 @@
   ;; option key as emacs meta
   (setq mac-command-modifier 'meta)
 
+;; CUSTOM KEYBINDINGS
+
+  (global-set-key (kbd "C-c t") 'toggle-truncate-lines)
+
 ;; OTHER
 
   ;; Display continuous lines
