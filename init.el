@@ -50,6 +50,11 @@
   ;; start emacs server
   (server-start)
 
+;; FILE ASSOCIATIONS
+
+  ;; Ruby
+  (add-to-list 'auto-mode-alist '("Gemfile" . ruby-mode))
+  (add-to-list 'auto-mode-alist '("Rakefile" . ruby-mode))
 
 ;; PACKAGE CONFIG
 
