@@ -50,6 +50,11 @@
   ;; start emacs server
   (server-start)
 
+;; RUBY
+
+  ;; Don't automatically insert encoding comment at the top of ruby files
+  (setq ruby-insert-encoding-magic-comment nil)
+
 ;; FILE ASSOCIATIONS
 
   ;; Ruby
