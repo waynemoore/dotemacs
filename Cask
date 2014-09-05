@@ -3,6 +3,7 @@
 (depends-on "ag")
 (depends-on "auto-complete")
 (depends-on "exec-path-from-shell")
+(depends-on "feature-mode")
 (depends-on "flx-ido")
 (depends-on "magit")
 (depends-on "pallet")
