@@ -17,6 +17,7 @@
 ;; CUSTOM KEYBINDINGS
 
   (global-set-key (kbd "C-c t") 'toggle-truncate-lines)
+  (global-set-key (kbd "C-c r") 'revert-buffer)
 
 ;; OTHER
 
