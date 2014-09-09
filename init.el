@@ -109,3 +109,7 @@
   ;; magit
   ;; https://github.com/magit/magit
   (require 'magit)
+
+  ;; goto-last-change
+  (require 'goto-last-change)
+  (global-set-key (kbd "C-c .") 'goto-last-change)

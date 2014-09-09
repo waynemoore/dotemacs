@@ -5,6 +5,7 @@
 (depends-on "exec-path-from-shell")
 (depends-on "feature-mode")
 (depends-on "flx-ido")
+(depends-on "goto-last-change")
 (depends-on "magit")
 (depends-on "pallet")
 (depends-on "powerline")
