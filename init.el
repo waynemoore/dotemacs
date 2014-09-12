@@ -112,4 +112,4 @@
 
   ;; goto-last-change
   (require 'goto-last-change)
-  (global-set-key (kbd "C-c .") 'goto-last-change)
+  (global-set-key (kbd "C-.") 'goto-last-change)
