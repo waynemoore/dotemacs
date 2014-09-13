@@ -7,6 +7,7 @@
 (depends-on "flx-ido")
 (depends-on "goto-last-change")
 (depends-on "magit")
+(depends-on "markdown-mode")
 (depends-on "pallet")
 (depends-on "powerline")
 (depends-on "project-explorer")
