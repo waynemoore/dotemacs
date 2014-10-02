@@ -12,3 +12,4 @@
 (depends-on "powerline")
 (depends-on "project-explorer")
 (depends-on "projectile")
+(depends-on "puppet-mode")
