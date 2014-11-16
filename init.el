@@ -6,6 +6,13 @@
   ;; No toolbar
   (tool-bar-mode -1)
 
+  ;; display buffer names uniquely
+  (require 'uniquify)
+  (setq
+    uniquify-buffer-name-style 'post-forward
+    uniquify-separator ":")
+
+
 ;; INPUT
 
   ;; keep alt as OS X behaviour, so that inserting hashes works
