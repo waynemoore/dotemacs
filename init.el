@@ -74,7 +74,7 @@
 
   ;; bundler for emacs packages
   ;; https://github.com/cask/cask
-  (require 'cask "/usr/local/Cellar/cask/0.6.0/cask.el")
+  (require 'cask "/usr/local/Cellar/cask/0.7.2/cask.el")
   (cask-initialize)
 
   ;; maintain package installs in Caskfile
